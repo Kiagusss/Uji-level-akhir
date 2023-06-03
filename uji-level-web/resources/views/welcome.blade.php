@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -137,4 +137,46 @@
             </div>
         </div>
     </body>
+</html> --}}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav >
+        <header class="header" class="nav" id="nav">
+            <a class="logo rotate-12" href="#" id="navi5">t</a>
+            <a class="logo rotate-[-17deg]" href="#" id="navi5">b</a>
+            <a class="logo rotate-[17deg] ml-[-5px]" href="#" id="navi5">h</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn" id="menu-icon"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#one" class="link link-theme link-arrow" id="nav-1">Get Started</a></li>
+              <li><a href="#two" class="link link-theme link-arrow"id="nav-2">About Us</a></li>
+              <li><a href="#three" class="link link-theme link-arrow"id="nav-3">Services</a></li>
+              <li><a href="#four" class="link link-theme link-arrow"id="nav-4">FAQ</a></li>
+              <li class="button-login"><a href="{{ url('/dashboard') }}"><button>Get Started</button></a></li>
+            </ul>
+        </header>
+    
+    </nav>
+
+
+      <div class="container h-[100vw]"></div>
+    <script src="{{ asset('js/script.js') }}"></script>
+</body>
 </html>
