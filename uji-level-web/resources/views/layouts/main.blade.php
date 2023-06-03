@@ -9,17 +9,21 @@
     <link href="https://unpkg.com/tailwindcss@1.2.0/dist/tailwind.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="py-5 md:py-0" onload="document.body.style.visibility=`visible`;">
+<body class="main" onload="document.body.style.visibility=`visible`;">
     <script>
         document.body.style.visibility=`hidden`;
       </script>
     
       @include('layouts.mobile')
-      <div class="flex">
-        @include('layouts.aside')
-        <div class="content">
-          @include('layouts.navbar')
+        @include('layouts.navbar')
+        <div class="wrapper">
+          <div class="wrapper-box">
+            @include('layouts.aside')
+            
           @yield('content')
+          </div>
+        </div>
+          
         </div>
         <div data-url="#"
           class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 right-0 box border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-10">
@@ -65,5 +69,15 @@
             }
           });
           </script>
+
+<script>
+  const sideMenuLinks = document.querySelectorAll('.side-menu');
+
+    sideMenuLinks.forEach(link => {
+        if (link.href === window.location.href) {
+            link.classList.add('side-menu--active');
+        }
+    })
+</script>
 </body>
 </html>
