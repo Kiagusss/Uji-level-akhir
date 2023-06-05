@@ -230,6 +230,55 @@
                 </div>
             </div>
         </div>
+        <div class="quotes w-full h-[360px]  mt-[220px] flex" style="
+        background: linear-gradient(90deg, #E7FAF5 1.06%, rgba(224, 236, 253, 0.546875) 97.83%, rgba(254, 250, 252, 0) 100%);
+        ">
+        <div class="container-kotak mt-[130px] ml-[100px]">
+            <div class="kotak-quotes1 w-[80px] h-[80px] bg-white rounded-xl rotate-[-10deg] justify-center flex items-center">
+                <img src="{{asset('image/console.png')}}" alt="" class="w-[50px] h-[50px]">
+            </div>
+            <img src="{{asset('image/bulb.png')}}" class="w-[30px] mt-[30px] ml-[30px] rotate-[-20deg]" alt="">
+        </div>  
+        <div class="container-kotak mt-[40px] ml-[20px]">
+            <div class="kotak-quotes1 w-[80px] h-[80px] bg-white rounded-xl rotate-[10deg] justify-center flex items-center ml-[20px]">
+                <img src="{{asset('image/start-up.png')}}" alt="" class="w-[50px] h-[50px]">
+            </div>
+            <img src="{{asset('image/squiggle.png')}}" class="w-[30px] mt-[30px] ml-[30px] rotate-[-20deg]" alt="">
+            <div class="kotak-quotes1 w-[80px] h-[80px] bg-white rounded-xl rotate-[10deg] justify-center flex items-center ml-[10px] mt-[20px]">
+                <img src="{{asset('image/man.png')}}" alt="" class="w-[50px] h-[50px]">
+            </div>
+        </div>  
+        <div class="container-kotak mt-[40px] ml-[0px]">
+            <div class="kotak-quotes1 w-[80px] h-[80px] bg-white rounded-xl rotate-[10deg] justify-center flex items-center ml-[0px] mt-[80px]">
+                <img src="{{asset('image/paper-airplane.png')}}" alt="" class="w-[50px] h-[50px]">
+            </div>
+        </div>  
+          <div class="teks-quotes w-[492px] mt-[70px] ml-[150px]">
+            <h1 class="font-['Montserrat'] text-center text-[50px]  text-black font-[800] ">Take Control of Your Mental Well-Being</h1>
+          </div>
+          <div class="container-kotak mt-[150px] ml-[100px]">
+            <div class="kotak-quotes1 w-[80px] h-[80px] bg-white rounded-xl rotate-[-15deg] justify-center flex items-center">
+                <img src="{{asset('image/star (2).png')}}" alt="" class="w-[50px] h-[50px]">
+            </div>
+            <img src="{{asset('image/location.png')}}" class="w-[20px] mt-[50px] ml-[70px] rotate-[-20deg]" alt="">
+        </div>  
+          <div class="container-kotak mt-[40px] ml-[20px]">
+            <div class="kotak-quotes1 w-[80px] h-[80px] bg-white rounded-xl rotate-[2deg] justify-center flex items-center">
+                <img src="{{asset('image/girl.png')}}" alt="" class="w-[50px] h-[50px]">
+            </div>
+            <div class="kotak-quotes1 w-[80px] h-[80px] bg-white rounded-xl mt-[90px] ml-[30px]  rotate-[20deg] justify-center flex items-center">
+                <img src="{{asset('image/king.png')}}" alt="" class="w-[50px] h-[50px]">
+            </div>
+             
+        </div>  
+        <div class="container-kotak mt-[20px] ml-[20px]">
+            <img src="{{asset('image/chat-balloon.png')}}" class="w-[25px] mt-[50px] ml-[0px]" alt="">
+            <div class="kotak-quotes1 w-[100px] h-[100px] bg-white rounded-xl rotate-[15deg] justify-center flex items-center mt-[20px]">
+                <img src="{{asset('image/heart.png')}}" alt="" class="w-[60px] h-[60px]">
+            </div>
+        </div>
+        </div>
+        
     </div>
     <script src="{{ asset('js/script.js') }}"></script>
 </body>
